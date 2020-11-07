@@ -150,14 +150,14 @@ app.post('/sms',timeout('600s'), (req, res) => {
                     console.log(sed_res)
                     
                      console.log("prepagin to send")
-                      client.messages
-                        .create({
-                            body: sed_res,
-                            to: "+916265070160",
-                            from: "+12058912379",
-                        }).then((message) => {
-                            console.log("Message sent successfully!!")
-                        })
+                      // client.messages
+                      //   .create({
+                      //       body: sed_res,
+                      //       to: "+916265070160",
+                      //       from: "+12058912379",
+                      //   }).then((message) => {
+                      //       console.log("Message sent successfully!!")
+                      //   })
                     
                         
                 })
