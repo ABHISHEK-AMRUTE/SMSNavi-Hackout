@@ -14,8 +14,8 @@ app.use(express.json());
   
  
 app.use(express.urlencoded({ extended: true }));
-var accountSid = "AC31300be8dda2ca34e6e4a3adad221b92";
-var authToken = '8d4546055fd09252cff7c2c1077f459f';
+var accountSid = "sample_id";
+var authToken = 'sample_token';
 
 var twilio = require("twilio");
 var client = new twilio(accountSid, authToken);
